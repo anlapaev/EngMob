@@ -15,15 +15,19 @@
         android:id="@+id/textMainMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:gravity="center_horizontal"
-        android:background="@drawable/my_button_bg"
-        android:text="Easy English"
-        android:textColor="@color/black"
-        android:textSize="50sp"
+        android:text="Easy English\nВыбери игровой режим"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:shadowColor="#ff0000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:alpha="1"
         android:layout_marginLeft="20sp"
-        android:layout_marginRight="20sp"
-        android:textStyle="bold" />
+        android:layout_marginRight="20sp" />
 
     <Button
         android:id="@+id/play_button_1"
@@ -31,13 +35,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:textSize="20sp"
         android:textStyle="bold"
-        android:background="@drawable/my_button_bg"
-        android:textColor="@color/black"
+
         android:layout_marginLeft="50sp"
         android:layout_marginRight="50sp"
-        android:text="Играть в 1 режим" />
+        android:text="Играть в 1 режим"
+        android:backgroundTint="@color/black"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="23dp"
+        android:topRightRadius="23dp"
+        android:topLeftRadius="23dp"/>
 
     <Button
         android:id="@+id/play_button_2"
@@ -46,12 +55,16 @@
         android:layout_marginLeft="50sp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="50sp"
-        android:background="@drawable/my_button_bg"
         android:onClick="description_game_mod_2"
         android:text="Играть в 2 режим"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="23dp"
+        android:topRightRadius="23dp"
+        android:topLeftRadius="23dp"/>
 
     <Button
         android:id="@+id/play_button_3"
@@ -60,12 +73,16 @@
         android:layout_marginLeft="50sp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="50sp"
-        android:background="@drawable/my_button_bg"
         android:onClick="description_game_mod_3"
         android:text="Играть в 3 режим"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="23dp"
+        android:topRightRadius="23dp"
+        android:topLeftRadius="23dp"/>
 
     <Button
         android:id="@+id/play_button_4"
@@ -74,12 +91,16 @@
         android:layout_marginLeft="50sp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="50sp"
-        android:background="@drawable/my_button_bg"
         android:onClick="description_game_mod_4"
         android:text="Играть в 4 режим"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="23dp"
+        android:topRightRadius="23dp"
+        android:topLeftRadius="23dp"/>
 
 
 </LinearLayout>

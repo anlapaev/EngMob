@@ -14,6 +14,13 @@
         android:layout_height="wrap_content"
         android:text="Цвета на английском языке"
         android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:shadowColor="#ff0000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:alpha="1"
         android:layout_centerHorizontal="true"
         android:textSize="45sp"/>
 

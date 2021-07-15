@@ -17,13 +17,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
         android:gravity="center_horizontal"
-        android:background="@drawable/my_button_bg"
+        android:textColor="@color/white"
         android:text="В этом режиме тебе предстоит - задание, в котором будет дано описание слова, чтобы пройти дальше нужно написать это слово"
-        android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textStyle="bold"
+        android:shadowColor="#ff0000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:alpha="1"
+        android:textSize="30sp"
         android:layout_marginLeft="20sp"
-        android:layout_marginRight="20sp"
-        android:textStyle="normal" />
+        android:layout_marginRight="20sp" />
 
     <Button
         android:id="@+id/play_game_mod_1"
@@ -31,13 +35,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:textSize="20sp"
         android:textStyle="bold"
-        android:background="@drawable/my_button_bg"
-        android:textColor="@color/black"
         android:layout_marginLeft="50sp"
         android:layout_marginRight="50sp"
         android:text="Начать"
+        android:backgroundTint="@color/black"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="23dp"
+        android:topRightRadius="23dp"
+        android:topLeftRadius="23dp"
         />
 
 </LinearLayout>

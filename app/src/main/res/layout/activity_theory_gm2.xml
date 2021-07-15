@@ -15,7 +15,14 @@
         android:text="Числа на английском языке"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"
-        android:textSize="45sp"/>
+        android:gravity="center"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:shadowColor="#ff0000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:alpha="1"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/tmath_list"

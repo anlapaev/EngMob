@@ -19,14 +19,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30sp"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="300dp"
         android:layout_marginRight="30sp"
-        android:background="@drawable/my_button_bg"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:shadowColor="#ff0000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:alpha="5"
         android:gravity="center_horizontal"
         android:text="Easy English"
-        android:textColor="@color/white"
-        android:textSize="50sp"
-        android:textStyle="bold" />
+        android:textColor="@color/white" />
 </FrameLayout>
 
 

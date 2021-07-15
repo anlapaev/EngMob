@@ -13,7 +13,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Введи цвет слова!"
-        android:textSize="25sp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:shadowColor="#ff0000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:alpha="1"
         android:layout_centerHorizontal="true"
         android:textColor="@color/white"/>
     <TextView
@@ -37,7 +43,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_below="@id/tv_nePravOtv"
-        android:text="Теория"/>
+        android:text="Теория"
+        android:backgroundTint="@color/black"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="23dp"
+        android:topRightRadius="23dp"
+        android:topLeftRadius="23dp"/>
 
     <TextView
         android:id="@+id/tv_slovo"
@@ -62,7 +75,14 @@
         android:layout_height="wrap_content"
         android:text="ответить"
         android:layout_below="@id/et_otvet"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/black"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="23dp"
+        android:topRightRadius="23dp"
+        android:topLeftRadius="23dp"/>
 
     <TextView
         android:id="@+id/tv_timer"
@@ -81,6 +101,13 @@
         android:layout_alignParentEnd="true"
         android:layout_above="@id/tv_timer"
         android:text="Назад"
+        android:backgroundTint="@color/black"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="23dp"
+        android:topRightRadius="23dp"
+        android:topLeftRadius="23dp"
         />
 
 </RelativeLayout>
