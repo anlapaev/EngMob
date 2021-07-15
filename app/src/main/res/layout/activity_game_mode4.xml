@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvtask_gm4"
         android:text="Счёт: 0"
+        android:textSize="20sp"
         android:textColor="@color/white"/>
 
     <TextView
@@ -72,6 +73,7 @@
         android:text="Осталось секунд: 30"
         android:layout_below="@id/btn_otv1_gm4"
         android:layout_marginTop="15dp"
+        android:textSize="20sp"
         android:textColor="@color/white"/>
 
     <Button

@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvtask_gm2"
         android:text="Правильно: 0"
+        android:textSize="20sp"
         android:textColor="@color/white"/>
     <TextView
         android:id="@+id/tv_nePravOtv_gm2"
@@ -37,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_pravOtv_gm2"
         android:text="Неправильно: 0"
+        android:textSize="20sp"
         android:textColor="@color/white"/>
     <Button
         android:id="@+id/btn_theory_gm2"
@@ -90,6 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Осталось секунд: 30"
+        android:textSize="20sp"
         android:layout_below="@id/btn_otv_gm2"
         android:layout_marginTop="15dp"
         android:textColor="@color/white"/>
