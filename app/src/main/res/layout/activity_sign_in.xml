@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@drawable/black_splash_screen"
+    android:background="@drawable/background_image_one_signin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignInActivity">
@@ -16,6 +16,10 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="20dp"
         android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintStart_toStartOf="parent"
         android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -31,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Почта"
+            android:background="@color/white"
             android:inputType="textEmailAddress">
         </com.google.android.material.textfield.TextInputEditText>
     </com.google.android.material.textfield.TextInputLayout>
@@ -47,6 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Имя"
+            android:background="@color/white"
             android:inputType="text">
         </com.google.android.material.textfield.TextInputEditText>
     </com.google.android.material.textfield.TextInputLayout>
@@ -62,6 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Пароль"
+            android:background="@color/white"
             android:inputType="textPassword">
         </com.google.android.material.textfield.TextInputEditText>
     </com.google.android.material.textfield.TextInputLayout>
@@ -77,6 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Подтвердите пароль"
+            android:background="@color/white"
             android:inputType="textPassword">
         </com.google.android.material.textfield.TextInputEditText>
     </com.google.android.material.textfield.TextInputLayout>
@@ -100,7 +108,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:textSize="20sp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:clickable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">

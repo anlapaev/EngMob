@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/black_splash_screen"
+    android:background="@drawable/background_image_one_signup1"
     tools:context=".Description_Game_Mode_2"
     android:shape="rectangle"
     android:orientation="vertical">

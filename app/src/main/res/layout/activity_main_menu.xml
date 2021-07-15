@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/black_splash_screen"
+    android:background="@drawable/background_image_one_signup1"
     tools:context=".activity_main_menu"
     android:shape="rectangle"
     android:orientation="vertical">

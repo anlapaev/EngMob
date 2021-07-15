@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Theory_GM2_Activity"
     android:padding="16dp"
-    android:background="@drawable/black_splash_screen">
+    android:background="@drawable/background_image_one_signup1">
 
     <TextView
         android:id="@+id/tv_cvvv"
