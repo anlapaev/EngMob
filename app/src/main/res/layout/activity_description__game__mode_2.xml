@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_splash_screen"
+    tools:context=".Description_Game_Mode_2"
+    android:shape="rectangle"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textDescriptionGameMode1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/my_button_bg"
+        android:text="В этом режиме тебе предстоит - задание, где нужно решить математическое задание,
+\но ответ записать слово на английском."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/play_game_mod_1"
+        android:onClick="game_mod_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/my_button_bg"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:text="Начать" />
+
+</LinearLayout>

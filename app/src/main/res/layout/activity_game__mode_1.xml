@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game_Mode_1"
+    android:background="@drawable/black_splash_screen"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введи цвет слова!"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_pravOtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/task"
+        android:text="Правильно: 0"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/tv_nePravOtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_pravOtv"
+        android:text="Неправильно: 0"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/btn_theory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tv_nePravOtv"
+        android:text="Теория"/>
+
+    <TextView
+        android:id="@+id/tv_slovo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Тут слово"
+        android:textSize="40sp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/et_otvet"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_slovo"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/btn_otv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ответить"
+        android:layout_below="@id/et_otvet"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Осталось секунд: 30"
+        android:layout_below="@id/btn_otv"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/tv_timer"
+        android:text="Назад"
+        />
+
+</RelativeLayout>

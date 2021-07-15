@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eng">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Eng">
+        <activity android:name=".Description_Game_Mode_4"></activity>
+        <activity android:name=".Game_Mode_4" />
+        <activity android:name=".Game_Mode_3" />
+        <activity android:name=".Description_Game_Mode_3" />
+        <activity android:name=".Theory_GM2_Activity" />
+        <activity android:name=".TheoryActivity" />
+        <activity android:name=".Game_Mode_2" />
+        <activity android:name=".Description_Game_Mode_2" />
+        <activity android:name=".Game_Mode_1" />
+        <activity android:name=".Description_Game_Mode_1" />
+        <activity android:name=".activity_main_menu" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

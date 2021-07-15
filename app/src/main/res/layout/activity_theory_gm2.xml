@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Theory_GM2_Activity"
+    android:padding="16dp"
+    android:background="@drawable/black_splash_screen">
+
+    <TextView
+        android:id="@+id/tv_cvvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Числа на английском языке"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="45sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tmath_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cvvv"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

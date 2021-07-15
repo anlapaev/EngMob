@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp">
+
+    <TextView
+    android:id="@+id/colorText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Цвет"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/colorDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/colorText"
+        android:text="Описание"
+        android:layout_marginLeft="8dp"
+        android:textSize="30sp"/>
+
+
+</RelativeLayout>
